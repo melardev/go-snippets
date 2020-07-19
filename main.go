@@ -1,6 +1,6 @@
 package main
 
-import "github.com/melardev/SnippetsGoSTL/io"
+import "github.com/melardev/SnippetsGoSTL/net"
 
 func main() {
 
@@ -10,9 +10,9 @@ func main() {
 	// crypto.LaunchCryptoSnippets()
 
 	// filesystem.LaunchFsSnippets()
-	io.LaunchIOSnippets()
+	// io.LaunchIOSnippets()
 	// mem.LaunchSnippets()
-	// net.LaunchNetSnippets()
+	net.LaunchNetSnippets()
 	// process.LaunchProcessSnippets()
 	// syntax.LaunchSyntaxSnippets()
 	// system.LaunchSnippets()
