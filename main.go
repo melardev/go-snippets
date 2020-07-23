@@ -1,14 +1,12 @@
 package main
 
-import (
-	"github.com/melardev/SnippetsGoSTL/text"
-)
+import "github.com/melardev/SnippetsGoSTL/core"
 
 func main() {
 
 	// concurrency.LaunchConcurrencySnippets()
 	// conversions.LaunchConversionSnippets()
-	// core.LaunchCoreSnippets()
+	core.LaunchCoreSnippets()
 	// crypto.LaunchCryptoSnippets()
 
 	// filesystem.LaunchFsSnippets()
@@ -18,5 +16,5 @@ func main() {
 	// process.LaunchProcessSnippets()
 	// syntax.LaunchSyntaxSnippets()
 	// system.LaunchSnippets()
-	text.LaunchTextSnippets()
+	// text.LaunchTextSnippets()
 }
