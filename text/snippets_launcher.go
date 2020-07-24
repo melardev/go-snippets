@@ -3,6 +3,7 @@ package text
 func LaunchTextSnippets() {
 	// bytesBufferSnippet()
 	// containsSnippet()
+	EqualFold()
 	// intToStr()
 	// joinStrings()
 	// prefixSnippet()
@@ -14,6 +15,6 @@ func LaunchTextSnippets() {
 	// replacerSnippet()
 	// splitSnippet()
 	// strReplace()
-	ToLowerCaseManual()
+	// ToLowerCaseManual()
 	// writeIntoBuffer()
 }
